@@ -127,4 +127,46 @@
   <data name="Oxford-Hopkins_Andy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Oxford-Hopkins_Andy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="All_about_the_USA_Emily_Winston" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\All_about_the_USA-Emily_Winston.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amazing_Architects_and_Artists_FH_Cornish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amazing_Architects_and_Artists-FH_Cornish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amazing_Thinkers_and_Humanitarians_Katerina_Mestheneou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amazing_Thinkers_and_Humanitarians-Katerina_Mestheneou.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A_Ghost_Robert_Harris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A_Ghost-Robert_Harris.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A_Sea_Change_Veronica_Henry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A_Sea_Change-Veronica_Henry.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barchester_Towers_Anthony_Trollope" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barchester_Towers-Anthony_Trollope.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Catch_Me_If_You_Can_Frank_W_Abagnale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Catch_Me_If_You_Can-Frank_W_Abagnale.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Death_of_the_Eviction_Man_Gayle_Tiller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Death_of_the_Eviction_Man-Gayle_Tiller.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fear_and_Loathing_in_Las_Vegas_Hunter_S_Thompson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fear_and_Loathing_in_Las_Vegas-Hunter_S_Thompson.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peter_Pan_J_M_Barrie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peter_Pan-J_M_Barrie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Spy_Who_Came_in_from_the_Cold_John_le_Carre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The_Spy_Who_Came_in_from_the_Cold-John_le_Carre.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="To_kill_a_Mockingbird_Harper_Lee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\To_kill_a_Mockingbird-Harper_Lee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Women_Who_Changed_the_World_Sue_Leather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Women_Who_Changed_the_World-Sue_Leather.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Your_Body_Louise_Spilsbury" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Your_Body-Louise_Spilsbury.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

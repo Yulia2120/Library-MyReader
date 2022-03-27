@@ -63,9 +63,99 @@ namespace Library_MyReader.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap A_Ghost_Robert_Harris {
+            get {
+                object obj = ResourceManager.GetObject("A_Ghost_Robert_Harris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap A_Sea_Change_Veronica_Henry {
+            get {
+                object obj = ResourceManager.GetObject("A_Sea_Change_Veronica_Henry", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap All_about_the_USA_Emily_Winston {
+            get {
+                object obj = ResourceManager.GetObject("All_about_the_USA_Emily_Winston", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Amazing_Architects_and_Artists_FH_Cornish {
+            get {
+                object obj = ResourceManager.GetObject("Amazing_Architects_and_Artists_FH_Cornish", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Amazing_Thinkers_and_Humanitarians_Katerina_Mestheneou {
+            get {
+                object obj = ResourceManager.GetObject("Amazing_Thinkers_and_Humanitarians_Katerina_Mestheneou", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Barchester_Towers_Anthony_Trollope {
+            get {
+                object obj = ResourceManager.GetObject("Barchester_Towers_Anthony_Trollope", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Catch_Me_If_You_Can_Frank_W_Abagnale {
+            get {
+                object obj = ResourceManager.GetObject("Catch_Me_If_You_Can_Frank_W_Abagnale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Death_of_the_Eviction_Man_Gayle_Tiller {
+            get {
+                object obj = ResourceManager.GetObject("Death_of_the_Eviction_Man_Gayle_Tiller", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap easy_ebook_viewer_icon {
             get {
                 object obj = ResourceManager.GetObject("easy-ebook-viewer-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fear_and_Loathing_in_Las_Vegas_Hunter_S_Thompson {
+            get {
+                object obj = ResourceManager.GetObject("Fear_and_Loathing_in_Las_Vegas_Hunter_S_Thompson", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -87,6 +177,56 @@ namespace Library_MyReader.Properties {
             get {
                 object obj = ResourceManager.GetObject("Papirus_Team_Papirus_Apps_Easy_ebook_viewer", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Peter_Pan_J_M_Barrie {
+            get {
+                object obj = ResourceManager.GetObject("Peter_Pan_J_M_Barrie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap The_Spy_Who_Came_in_from_the_Cold_John_le_Carre {
+            get {
+                object obj = ResourceManager.GetObject("The_Spy_Who_Came_in_from_the_Cold_John_le_Carre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap To_kill_a_Mockingbird_Harper_Lee {
+            get {
+                object obj = ResourceManager.GetObject("To_kill_a_Mockingbird_Harper_Lee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Women_Who_Changed_the_World_Sue_Leather {
+            get {
+                object obj = ResourceManager.GetObject("Women_Who_Changed_the_World_Sue_Leather", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Your_Body_Louise_Spilsbury {
+            get {
+                object obj = ResourceManager.GetObject("Your_Body_Louise_Spilsbury", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

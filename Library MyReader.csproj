@@ -85,6 +85,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Papirus-Team-Papirus-Apps-Easy-ebook-viewer.ico" />
+    <None Include="Resources\Your_Body-Louise_Spilsbury.jpg" />
+    <None Include="Resources\Women_Who_Changed_the_World-Sue_Leather.jpg" />
+    <None Include="Resources\To_kill_a_Mockingbird-Harper_Lee.jpg" />
+    <None Include="Resources\The_Spy_Who_Came_in_from_the_Cold-John_le_Carre.jpg" />
+    <None Include="Resources\Peter_Pan-J_M_Barrie.jpg" />
+    <None Include="Resources\Fear_and_Loathing_in_Las_Vegas-Hunter_S_Thompson.jpg" />
+    <None Include="Resources\Death_of_the_Eviction_Man-Gayle_Tiller.jpg" />
+    <None Include="Resources\Catch_Me_If_You_Can-Frank_W_Abagnale.jpg" />
+    <None Include="Resources\Barchester_Towers-Anthony_Trollope.jpg" />
+    <None Include="Resources\Amazing_Thinkers_and_Humanitarians-Katerina_Mestheneou.jpg" />
+    <None Include="Resources\Amazing_Architects_and_Artists-FH_Cornish.jpg" />
+    <None Include="Resources\All_about_the_USA-Emily_Winston.jpg" />
+    <None Include="Resources\A_Sea_Change-Veronica_Henry.jpg" />
+    <None Include="Resources\A_Ghost-Robert_Harris.jpg" />
     <None Include="Resources\Oxford-Hopkins_Andy.jpg" />
     <None Include="Resources\easy-ebook-viewer-icon.png" />
     <None Include="Resources\Papirus-Team-Papirus-Apps-Easy-ebook-viewer.ico" />
