@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Papirus-Team-Papirus-Apps-Easy-ebook-viewer.ico" />
+    <None Include="Resources\Oxford-Hopkins_Andy.jpg" />
     <None Include="Resources\easy-ebook-viewer-icon.png" />
     <None Include="Resources\Papirus-Team-Papirus-Apps-Easy-ebook-viewer.ico" />
   </ItemGroup>

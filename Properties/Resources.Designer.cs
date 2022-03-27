@@ -71,6 +71,16 @@ namespace Library_MyReader.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Oxford_Hopkins_Andy {
+            get {
+                object obj = ResourceManager.GetObject("Oxford-Hopkins_Andy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
         /// </summary>
         internal static System.Drawing.Icon Papirus_Team_Papirus_Apps_Easy_ebook_viewer {
