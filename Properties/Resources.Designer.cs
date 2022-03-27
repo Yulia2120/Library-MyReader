@@ -71,12 +71,44 @@ namespace Library_MyReader.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на CHAPTER ONE
+        ///
+        ///
+        ///
+        ///The M5 motorway on a Friday afternoon in August was enough to drive you mad. It took Craig forty minutes just to get out of the city. Then the traffic would be nose to tail all the way from Birmingham to Taunton. Stop-start. Stop-start. A slow crawl that had him drumming his fingers on the steering wheel.
+        ///
+        ///
+        ///
+        ///Craig looked longingly at the hard shoulder. It was so tempting. If he got stopped, he could just flash his badge. He&apos;d probably get away with it, except he wasn&apos;t that sort of copper. He [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string A_Sea_Change_by_Veronica_Henry {
+            get {
+                return ResourceManager.GetString("A_Sea_Change_by_Veronica_Henry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap A_Sea_Change_Veronica_Henry {
             get {
                 object obj = ResourceManager.GetObject("A_Sea_Change_Veronica_Henry", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на CHAPTER ONE
+        ///Early History of America
+        ///
+        ///The Voyage of the Mayflower
+        ///
+        ///On 6th September, 1620, a group of 102 pilgrims sailed from England to America, &quot;the New World&quot;, on the ship the Mayflower. The pilgrims left England because they wanted religious and political freedom. The long, difficult journey across the Atlantic Ocean continued for 65 days. There were storms on the way and water entered the ship, but the pilgrims decided to continue on to the New World.
+        ///Early on 9th November, 1620, the pilgrims sa [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string All_about_the_USA_by_Emily_Winston {
+            get {
+                return ResourceManager.GetString("All_about_the_USA_by_Emily_Winston", resourceCulture);
             }
         }
         
@@ -91,12 +123,76 @@ namespace Library_MyReader.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Leonardo da Vinci
+        ///
+        ///
+        ///
+        ///***
+        ///
+        ///
+        ///
+        ///1452-1519
+        ///
+        ///
+        ///
+        ///The man who painted the &apos;Mona Lisa&apos;
+        ///
+        ///
+        ///
+        ///
+        ///
+        ///I had many careers during my life. I was a painter, an architect, an engineer and a scientist. But I was also a dreamer who dreamed of the future. Some of the things I dreamed about only happened many years after my death.
+        ///
+        ///
+        ///
+        ///***
+        ///
+        ///
+        ///
+        ///I was born, on 15th April 1452, in a village near the Italian town of Vinci. In those days, all the great cities of Italy were separate countries. Vinci belonged to the city of Florence.
+        ///
+        ///
+        ///
+        ///My fath [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string Amazing_Architects_and_Artists_by_F_H__Cornish {
+            get {
+                return ResourceManager.GetString("Amazing_Architects_and_Artists_by_F_H__Cornish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Amazing_Architects_and_Artists_FH_Cornish {
             get {
                 object obj = ResourceManager.GetObject("Amazing_Architects_and_Artists_FH_Cornish", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на CHAPTER ONE
+        ///
+        ///
+        ///
+        ///Confucius - the great Chinese philosopher
+        ///
+        ///
+        ///
+        ///551 BCE-479 BCE
+        ///
+        ///
+        ///
+        ///He who learns but does not think is lost. He who thinks but does not learn is in great danger. Real knowledge is understanding that we actually know very little.
+        ///
+        ///***
+        ///
+        ///I was born a very long time ago - the story of my life was not written down until a long time after my death, so many of the facts are uncertain. But here I will tell you what was believed about my life and the events that shaped my thinking. I was born in China in [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string Amazing_Thinkers_and_Humanitarians_by_Katerina_Mestheneou {
+            get {
+                return ResourceManager.GetString("Amazing_Thinkers_and_Humanitarians_by_Katerina_Mestheneou", resourceCulture);
             }
         }
         
@@ -121,12 +217,75 @@ namespace Library_MyReader.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на PART ONE: WAR IN BARCHESTER
+        ///
+        ///CHAPTER ONE
+        ///
+        ///
+        ///
+        ///The new bishop
+        ///
+        ///
+        ///
+        ///During the last ten days of July in the year 1852, in the ancient cathedral city of Barchester, a most important question was asked every hour and answered every hour in different ways - &apos;Who is to be the new bishop?&apos;
+        ///
+        ///Old Dr Grantly, who had for many years occupied the bishop&apos;s chair, was dying, just as the government of the country was about to change. The bishop&apos;s son, Archdeacon Grantly, had recently taken on many of his father&apos;s  [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string Barchester_Towers_by_Anthony_Trollope {
+            get {
+                return ResourceManager.GetString("Barchester_Towers_by_Anthony_Trollope", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на CHAPTER ONE
+        ///
+        ///
+        ///
+        ///The Fledgling
+        ///
+        ///
+        ///
+        ///A man&apos;s alter ego is nothing more than his favorite image of himself. The mirror in my room in the Windsor Hotel in Paris showed my favorite image of me - a handsome young airline pilot, looking perfect with a smooth skin and bull shoulders. Modesty is not one of my virtues. At the time, virtue was not one of my virtues.
+        ///
+        ///Satisfied with my appearance, I picked up my bag, left the room and two minutes later was standing in front of the cashier at the hotel reception.
+        ///
+        ///&quot;Good mo [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string Catch_Me_If_You_Can_by_Frank_W__Abagnale {
+            get {
+                return ResourceManager.GetString("Catch_Me_If_You_Can_by_Frank_W__Abagnale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Catch_Me_If_You_Can_Frank_W_Abagnale {
             get {
                 object obj = ResourceManager.GetObject("Catch_Me_If_You_Can_Frank_W_Abagnale", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на CHAPTER ONE
+        ///
+        ///
+        ///
+        ///Tuesday, February 9, 2010
+        ///
+        ///
+        ///
+        ///My business phone rang. I stared at the digital clock next to my bed. It flashed 1:34 a.m. with way too much brightness for that time of night.
+        ///
+        ///My boyfriend Darryl turned over with a groan and asked groggily, &quot;Babe, do you want me to get that?&quot;
+        ///
+        ///The call was probably from my former client Suzanne. A few months ago, she had hired me to find her long-lost daughter Catalina who had vanished more than twenty years ago. I had looked everywhere: online, newspapers, dea [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string Death_of_the_Eviction_Man_by_Gayle_Tiller {
+            get {
+                return ResourceManager.GetString("Death_of_the_Eviction_Man_by_Gayle_Tiller", resourceCulture);
             }
         }
         
@@ -151,12 +310,45 @@ namespace Library_MyReader.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на PART ONE
+        ///
+        ///
+        ///
+        ///CHAPTER ONE
+        ///
+        ///
+        ///
+        ///
+        ///
+        ///We were somewhere near Barstow, in the desert, when the drugs began to take hold. I remember saying something like &apos;&apos;I feel a bit dizzy; maybe you should drive...&apos;&apos; And suddenly there was a terrible roar all around us, and the sky was full of what looked like huge bats, flying around the car, which was going about a hundred miles an hour with the top down to Las Vegas. And a voice was screaming: &apos;&apos;Holy Jesus! What are these goddamn animals?&apos;&apos;
+        ///
+        ///Then all was quiet again. My attorn [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string Fear_and_Loathing_in_Las_Vegas_by_Hunter_S__Thompson {
+            get {
+                return ResourceManager.GetString("Fear_and_Loathing_in_Las_Vegas_by_Hunter_S__Thompson", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Fear_and_Loathing_in_Las_Vegas_Hunter_S_Thompson {
             get {
                 object obj = ResourceManager.GetObject("Fear_and_Loathing_in_Las_Vegas_Hunter_S_Thompson", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на CHAPTER ONE
+        ///Oxford
+        ///Oxford is ninety kilometres from London - about an hour by car, bus or train - and only sixty-four kilometres from Heathrow Airport. The River Thames runs through Oxford, and the River Cherwell joins it there. The Thames then runs south-east towards London. The land is low, but there are hills to the west. Much of the city is old and very beautiful.
+        ///More than 110,000 people have their homes in Oxford. Bur in some months of the year there are a lot more people in the city; thousands of  [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string Oxford_by_Hopkins_Andy {
+            get {
+                return ResourceManager.GetString("Oxford_by_Hopkins_Andy", resourceCulture);
             }
         }
         
@@ -181,12 +373,71 @@ namespace Library_MyReader.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на 	Chapter one
+        ///
+        ///	The Nursery
+        ///
+        ///	Wendy, John and Michael Darling live in a lovely house in London. They have got a big, sunny nursery. There are colourful pictures and a big clock on the wall. There are toys here and there. The Darlings are a happy family. Mr Darling and Mrs Darling love their children very much. Wendy is the first child, John is the second and Michael is the third.
+        ///
+        ///	The children&apos;s nanny is called Nana and she is a big Newfoundland dog! Her kennel is in the nursery and she is a wonderful [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string Peter_Pan_by_J__M__Barrie {
+            get {
+                return ResourceManager.GetString("Peter_Pan_by_J__M__Barrie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Peter_Pan_J_M_Barrie {
             get {
                 object obj = ResourceManager.GetObject("Peter_Pan_J_M_Barrie", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на CHAPTER ONE
+        ///
+        ///
+        ///
+        ///The Body on the Beach
+        ///
+        ///
+        ///
+        ///When I heard how McAra died, I should have said no to Rick. But Rick, who&apos;s my agent, is a good storyteller. I often think he should be the writer and me the agent. The story he told me over lunch that day went like this:
+        ///
+        ///Two Sundays earlier (12th January) a man called Michael McAra had been on the last ferry of the day from Woods Hole, Massachusetts to Martha&apos;s Vineyard. There was a strong wind when the ferry left at 9:45 PM and the boat was crowded. McAra parked hi [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string The_Ghost_by_Robert_Harris {
+            get {
+                return ResourceManager.GetString("The_Ghost_by_Robert_Harris", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на CHAPTER ONE
+        ///
+        ///
+        ///
+        ///Checkpoint
+        ///
+        ///
+        ///
+        ///The American gave Alec Leamas another cup of coffee and said, &quot;Why don&apos;t you go back home and sleep? We can phone you if he comes.&quot;
+        ///
+        ///Leamas did not answer. He just stared through the window of the West German checkpoint. The street near the hut was empty.
+        ///
+        ///&quot;You can&apos;t wait forever, sir,&quot; said the American. &quot;Maybe he&apos;ll come another time.&quot;
+        ///
+        ///&quot;He&apos;s coming,&quot; said Leamas. &quot;It&apos;s nearly dark now.&quot;
+        ///
+        ///Leamas stood next to a policeman who was watching the East German checkpoint through bino [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string The_Spy_Who_Came_in_from_the_Cold_by_John_le_Carre {
+            get {
+                return ResourceManager.GetString("The_Spy_Who_Came_in_from_the_Cold_by_John_le_Carre", resourceCulture);
             }
         }
         
@@ -201,6 +452,25 @@ namespace Library_MyReader.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на PART ONE
+        ///
+        ///
+        ///
+        ///CHAPTER ONE
+        ///
+        ///
+        ///
+        ///We could never forget the events that had led to my brother Jem&apos;s injury. His elbow was so badly broken that when it healed, his left arm was somewhat shorter than his right and when he stood or walked, the back of his hand was at right angles to his body, his thumb parallel to his thigh. But as he was able to play football jut as well as before the accident, he was seldom self- conscious about that injury. He was nearly thirteen then.
+        ///
+        ///When we grew older and looked back on the ye [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string To_kill_a_Mockingbird_by_Harper_Lee {
+            get {
+                return ResourceManager.GetString("To_kill_a_Mockingbird_by_Harper_Lee", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap To_kill_a_Mockingbird_Harper_Lee {
@@ -211,12 +481,56 @@ namespace Library_MyReader.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на CHAPTER ONE
+        ///
+        ///
+        ///
+        ///Women and education
+        ///
+        ///
+        ///
+        ///&quot;I do not wish for women to have power over men; but over themselves.&quot;
+        ///
+        ///Mary Wollstonecraft (1759-1797)
+        ///
+        ///Women&apos;s rights start with the education of girls and women. If we study the history of women&apos;s fight for equality with men, education has always been an important topic. It may be the most important topic, because women can only be equal to men if they have an equal education.
+        ///
+        ///But the fight for equal education has met many problems. In many countries and at differen [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string Women_Who_Changed_the_World_by_Sue_Leather {
+            get {
+                return ResourceManager.GetString("Women_Who_Changed_the_World_by_Sue_Leather", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Women_Who_Changed_the_World_Sue_Leather {
             get {
                 object obj = ResourceManager.GetObject("Women_Who_Changed_the_World_Sue_Leather", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на CHAPTER ONE
+        ///
+        ///
+        ///
+        ///Your Skin and Hair
+        ///
+        ///
+        ///
+        ///You have skin everywhere on your body. Your skin helps you to touch things. It helps you to know when things are hot or cold. Skin stops dirt getting into your body. It stops water getting into your body when it&apos;s rainy and when you swim.
+        ///
+        ///Hair grows out of your skin. Hair on your arms and legs stands up when you&apos;re cold. This stops your body getting too cold. Your skin makes sweat when you&apos;re hot. This stops your body getting too hot.
+        ///
+        ///Protect your body! Wash every day, [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string Your_Body_by_Jennifer_Gascoigne {
+            get {
+                return ResourceManager.GetString("Your_Body_by_Jennifer_Gascoigne", resourceCulture);
             }
         }
         

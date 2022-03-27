@@ -74,7 +74,7 @@ namespace Library_MyReader
             // Create columns for the items and subitems.
             listView1.Columns.Add("Pictures", listView1.Width / 3, HorizontalAlignment.Left);
             listView1.Columns.Add("Genre", listView1.Width / 3, HorizontalAlignment.Left);
-            listView1.Columns.Add("Name of the Anime", listView1.Width / 3, HorizontalAlignment.Left);
+            listView1.Columns.Add("Author", listView1.Width / 3, HorizontalAlignment.Left);
 
             //Add the items to the ListView.
             listView1.Items.AddRange(new ListViewItem[] { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, item11, item12 });

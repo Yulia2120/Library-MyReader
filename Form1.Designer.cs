@@ -39,10 +39,12 @@
             this.butBooksList = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.tabPageAddBook = new System.Windows.Forms.TabPage();
+            this.butAddBook = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.tabPageTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPageLibrary.SuspendLayout();
+            this.tabPageAddBook.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -175,11 +177,21 @@
             // tabPageAddBook
             // 
             this.tabPageAddBook.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPageAddBook.Controls.Add(this.butAddBook);
             this.tabPageAddBook.Location = new System.Drawing.Point(4, 29);
             this.tabPageAddBook.Name = "tabPageAddBook";
             this.tabPageAddBook.Size = new System.Drawing.Size(778, 464);
             this.tabPageAddBook.TabIndex = 2;
             this.tabPageAddBook.Text = "AddBook";
+            // 
+            // butAddBook
+            // 
+            this.butAddBook.Location = new System.Drawing.Point(118, 17);
+            this.butAddBook.Name = "butAddBook";
+            this.butAddBook.Size = new System.Drawing.Size(117, 23);
+            this.butAddBook.TabIndex = 0;
+            this.butAddBook.Text = "Add new book";
+            this.butAddBook.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -200,6 +212,7 @@
             this.tabPageTitle.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPageLibrary.ResumeLayout(false);
+            this.tabPageAddBook.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -216,6 +229,7 @@
         private System.Windows.Forms.Button butBooksDetailes;
         private System.Windows.Forms.Button butBooksList;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button butAddBook;
     }
 }
 

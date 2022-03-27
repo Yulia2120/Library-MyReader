@@ -85,6 +85,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Papirus-Team-Papirus-Apps-Easy-ebook-viewer.ico" />
+    <None Include="Resources\All about the USA by Emily Winston.txt" />
+    <None Include="Resources\Oxford by Hopkins Andy.txt" />
+    <None Include="Resources\Your Body by Jennifer Gascoigne.txt" />
+    <None Include="Resources\Women Who Changed the World by Sue Leather.txt" />
+    <None Include="Resources\To kill a Mockingbird by Harper Lee.txt" />
+    <None Include="Resources\The Spy Who Came in from the Cold by John le Carre.txt" />
+    <None Include="Resources\The Ghost by Robert Harris.txt" />
+    <None Include="Resources\Peter Pan by J. M. Barrie.txt" />
+    <None Include="Resources\Fear and Loathing in Las Vegas by Hunter S. Thompson.txt" />
+    <None Include="Resources\Death of the Eviction Man by Gayle Tiller.txt" />
+    <None Include="Resources\Catch Me If You Can by Frank W. Abagnale.txt" />
+    <None Include="Resources\Barchester Towers by Anthony Trollope.txt" />
+    <None Include="Resources\Amazing Thinkers and Humanitarians by Katerina Mestheneou.txt" />
+    <None Include="Resources\Amazing Architects and Artists by F.H. Cornish.txt" />
+    <None Include="Resources\A Sea Change by Veronica Henry.txt" />
     <None Include="Resources\Your_Body-Louise_Spilsbury.jpg" />
     <None Include="Resources\Women_Who_Changed_the_World-Sue_Leather.jpg" />
     <None Include="Resources\To_kill_a_Mockingbird-Harper_Lee.jpg" />
