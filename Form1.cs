@@ -1,11 +1,20 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Collections.Generic;
+using System.IO;
 
 namespace Library_MyReader
 {
     public partial class Form1 : Form
     {
+        private int SelectedImageIndex = 0;
+        private List<Image> LoadedImages { get; set; }
+        
+      
+        private string path = @"C:\Users\Admin\source\repos\Library MyReader\bin\Debug\images";
+       
+
         public Form1()
         {
             InitializeComponent();
@@ -19,6 +28,14 @@ namespace Library_MyReader
                 butBooksList.Enabled = false;
                 butBooksDetailes.Enabled = true;
              
+            }
+            if (tabControl.SelectedIndex == 2)
+            {
+                var di = Directory.GetFiles(path);
+                LoadImagesFromFolder(di);
+                InitListView();
+            
+
             }
         }
         private void LoadListView(int nbr)
@@ -71,19 +88,19 @@ namespace Library_MyReader
             item3.SubItems.Add("Anime");
             item3.SubItems.Add("Inconnu");
 
-            // Create columns for the items and subitems.
+            // Создание столбцов для элементов и подпунктов
             listView1.Columns.Add("Pictures", listView1.Width / 3, HorizontalAlignment.Left);
             listView1.Columns.Add("Genre", listView1.Width / 3, HorizontalAlignment.Left);
             listView1.Columns.Add("Author", listView1.Width / 3, HorizontalAlignment.Left);
 
-            //Add the items to the ListView.
+            //Добавить элементы в ListView.
             listView1.Items.AddRange(new ListViewItem[] { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, item11, item12 });
 
-            // Create two ImageList objects.
+            // Создаем два объекта ImageList.
             ImageList imageListSmall = new ImageList();
             ImageList imageListLarge = new ImageList();
 
-            // Initialize the ImageList objects with bitmaps.
+            // Инициализация объектов ImageList с помощью растровых изображений.
             imageListSmall.Images.Add(Properties.Resources.All_about_the_USA_Emily_Winston);
             imageListSmall.Images.Add(Properties.Resources.Women_Who_Changed_the_World_Sue_Leather);
             imageListSmall.Images.Add(Properties.Resources.Catch_Me_If_You_Can_Frank_W_Abagnale);
@@ -112,9 +129,9 @@ namespace Library_MyReader
             imageListLarge.Images.Add(Properties.Resources.Amazing_Thinkers_and_Humanitarians_Katerina_Mestheneou);
             imageListLarge.Images.Add(Properties.Resources.Oxford_Hopkins_Andy);
 
-            //Assign the ImageList objects to the ListView.
 
-            // set the siz to the Image
+
+            // установить значение SIZE на изображение
             imageListSmall.ImageSize = new Size(60, 80);
             imageListLarge.ImageSize = new Size(80, 120);
 
@@ -138,7 +155,75 @@ namespace Library_MyReader
         }
 
 
-          
+
+
+        //загрузка коллекции изображений
+        private void LoadImagesFromFolder(string[] paths)
+        {
+            LoadedImages = new List<Image>();
+            var index = 1;
+            foreach (var path in paths)
+            {
+                var tempImage = Image.FromFile(path);
+                LoadedImages.Add(tempImage);
+                index++;
+            }
+        }
+        private void InitListView()
+        {
+
+            //инициализация ImageList
+            ImageList images = new ImageList();
+            images.ImageSize = new Size(80, 120);
+
+            foreach (var image in LoadedImages)
+            {
+                images.Images.Add(image);
+            }
+
+           // настройка ListView
+            imageList.LargeImageList = images;
+            for (int itemIndex = 1; itemIndex <= LoadedImages.Count; itemIndex++)
+            {
+                imageList.Items.Add(new ListViewItem($"Image{itemIndex}", itemIndex - 1));
+            }
+        }
+        //выбор изображения из ListView
+        private void SelectTheClickedItem(ListView list, int index)
+        {
+            for (int item = 0; item < list.Items.Count; item++)
+            {
+                if (item == index)
+                {
+                    list.Items[item].Selected = true;
+                }
+                else
+                {
+                    list.Items[item].Selected = false;
+                }
+            }
+        }
+        //привязка по индексу изображения
+
+        private void imageList_ItemSelectionChanged_1(object sender, ListViewItemSelectionChangedEventArgs e)
+        {
+            if (imageList.SelectedIndices.Count > 0)
+            {
+                try
+                {
+                    BookForm bookForm = new BookForm();
+                    var selectedIndex = imageList.SelectedIndices[0];
+                    Image selectedImg = LoadedImages[selectedIndex];
+                    bookForm.selectedImage.Image = selectedImg;
+                    SelectedImageIndex = selectedIndex;
+                    bookForm.Show();
+                }
+                catch
+                {
+                    MessageBox.Show("  Error!");
+                }
+            }
+        }
     }
 }
 

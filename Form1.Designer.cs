@@ -31,20 +31,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPageTitle = new System.Windows.Forms.TabPage();
-            this.labelTitle2 = new System.Windows.Forms.Label();
-            this.labelTitle1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.labelTitle1 = new System.Windows.Forms.Label();
+            this.labelTitle2 = new System.Windows.Forms.Label();
             this.tabPageLibrary = new System.Windows.Forms.TabPage();
             this.butBooksDetailes = new System.Windows.Forms.Button();
             this.butBooksList = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.tabPageAddBook = new System.Windows.Forms.TabPage();
-            this.butAddBook = new System.Windows.Forms.Button();
+            this.tabPageBooks = new System.Windows.Forms.TabPage();
+            this.imageList = new System.Windows.Forms.ListView();
             this.tabControl.SuspendLayout();
             this.tabPageTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPageLibrary.SuspendLayout();
-            this.tabPageAddBook.SuspendLayout();
+            this.tabPageBooks.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -53,7 +53,7 @@
             this.tabControl.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
             this.tabControl.Controls.Add(this.tabPageTitle);
             this.tabControl.Controls.Add(this.tabPageLibrary);
-            this.tabControl.Controls.Add(this.tabPageAddBook);
+            this.tabControl.Controls.Add(this.tabPageBooks);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tabControl.Location = new System.Drawing.Point(0, 0);
@@ -79,20 +79,20 @@
             this.tabPageTitle.TabIndex = 0;
             this.tabPageTitle.Text = "Title";
             // 
-            // labelTitle2
+            // pictureBox1
             // 
-            this.labelTitle2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelTitle2.BackColor = System.Drawing.Color.Transparent;
-            this.labelTitle2.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelTitle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(69)))), ((int)(((byte)(126)))));
-            this.labelTitle2.Location = new System.Drawing.Point(334, 203);
-            this.labelTitle2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelTitle2.Name = "labelTitle2";
-            this.labelTitle2.Size = new System.Drawing.Size(259, 45);
-            this.labelTitle2.TabIndex = 2;
-            this.labelTitle2.Text = "MyEBookReader";
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Library_MyReader.Properties.Resources.easy_ebook_viewer_icon;
+            this.pictureBox1.Location = new System.Drawing.Point(186, 155);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(136, 122);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // labelTitle1
             // 
@@ -109,20 +109,20 @@
             this.labelTitle1.TabIndex = 1;
             this.labelTitle1.Text = "Library";
             // 
-            // pictureBox1
+            // labelTitle2
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.labelTitle2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Library_MyReader.Properties.Resources.easy_ebook_viewer_icon;
-            this.pictureBox1.Location = new System.Drawing.Point(186, 155);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(136, 122);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.labelTitle2.BackColor = System.Drawing.Color.Transparent;
+            this.labelTitle2.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelTitle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(69)))), ((int)(((byte)(126)))));
+            this.labelTitle2.Location = new System.Drawing.Point(334, 203);
+            this.labelTitle2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelTitle2.Name = "labelTitle2";
+            this.labelTitle2.Size = new System.Drawing.Size(259, 45);
+            this.labelTitle2.TabIndex = 2;
+            this.labelTitle2.Text = "MyEBookReader";
             // 
             // tabPageLibrary
             // 
@@ -169,29 +169,33 @@
             this.listView1.HideSelection = false;
             this.listView1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.listView1.Location = new System.Drawing.Point(4, 55);
+            this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(770, 406);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
-            // tabPageAddBook
+            // tabPageBooks
             // 
-            this.tabPageAddBook.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPageAddBook.Controls.Add(this.butAddBook);
-            this.tabPageAddBook.Location = new System.Drawing.Point(4, 29);
-            this.tabPageAddBook.Name = "tabPageAddBook";
-            this.tabPageAddBook.Size = new System.Drawing.Size(778, 464);
-            this.tabPageAddBook.TabIndex = 2;
-            this.tabPageAddBook.Text = "AddBook";
+            this.tabPageBooks.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPageBooks.Controls.Add(this.imageList);
+            this.tabPageBooks.Location = new System.Drawing.Point(4, 29);
+            this.tabPageBooks.Name = "tabPageBooks";
+            this.tabPageBooks.Size = new System.Drawing.Size(778, 464);
+            this.tabPageBooks.TabIndex = 2;
+            this.tabPageBooks.Text = "Books";
             // 
-            // butAddBook
+            // imageList
             // 
-            this.butAddBook.Location = new System.Drawing.Point(118, 17);
-            this.butAddBook.Name = "butAddBook";
-            this.butAddBook.Size = new System.Drawing.Size(117, 23);
-            this.butAddBook.TabIndex = 0;
-            this.butAddBook.Text = "Add new book";
-            this.butAddBook.UseVisualStyleBackColor = true;
+            this.imageList.Alignment = System.Windows.Forms.ListViewAlignment.SnapToGrid;
+            this.imageList.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.imageList.HideSelection = false;
+            this.imageList.Location = new System.Drawing.Point(0, 53);
+            this.imageList.Name = "imageList";
+            this.imageList.Size = new System.Drawing.Size(778, 411);
+            this.imageList.TabIndex = 0;
+            this.imageList.UseCompatibleStateImageBehavior = false;
+            this.imageList.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.imageList_ItemSelectionChanged_1);
             // 
             // Form1
             // 
@@ -212,7 +216,7 @@
             this.tabPageTitle.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPageLibrary.ResumeLayout(false);
-            this.tabPageAddBook.ResumeLayout(false);
+            this.tabPageBooks.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -225,11 +229,11 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TabPage tabPageLibrary;
         private System.Windows.Forms.TabPage tabPageTitle;
-        private System.Windows.Forms.TabPage tabPageAddBook;
+        private System.Windows.Forms.TabPage tabPageBooks;
         private System.Windows.Forms.Button butBooksDetailes;
         private System.Windows.Forms.Button butBooksList;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Button butAddBook;
+        protected System.Windows.Forms.ListView imageList;
     }
 }
 
