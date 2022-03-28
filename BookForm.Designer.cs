@@ -29,23 +29,46 @@
         private void InitializeComponent()
         {
             this.selectedImage = new System.Windows.Forms.PictureBox();
+            this.butTextFormRead = new System.Windows.Forms.Button();
+            this.labelBookForm = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.selectedImage)).BeginInit();
             this.SuspendLayout();
             // 
             // selectedImage
             // 
-            this.selectedImage.Location = new System.Drawing.Point(249, 60);
+            this.selectedImage.Location = new System.Drawing.Point(250, 31);
             this.selectedImage.Name = "selectedImage";
             this.selectedImage.Size = new System.Drawing.Size(273, 375);
             this.selectedImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.selectedImage.TabIndex = 0;
             this.selectedImage.TabStop = false;
             // 
+            // butTextFormRead
+            // 
+            this.butTextFormRead.Location = new System.Drawing.Point(653, 444);
+            this.butTextFormRead.Name = "butTextFormRead";
+            this.butTextFormRead.Size = new System.Drawing.Size(75, 23);
+            this.butTextFormRead.TabIndex = 1;
+            this.butTextFormRead.Text = "Read";
+            this.butTextFormRead.UseVisualStyleBackColor = true;
+            this.butTextFormRead.Click += new System.EventHandler(this.butTextFormRead_Click);
+            // 
+            // labelBookForm
+            // 
+            this.labelBookForm.AutoSize = true;
+            this.labelBookForm.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelBookForm.Location = new System.Drawing.Point(247, 418);
+            this.labelBookForm.Name = "labelBookForm";
+            this.labelBookForm.Size = new System.Drawing.Size(0, 15);
+            this.labelBookForm.TabIndex = 2;
+            // 
             // BookForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(786, 497);
+            this.Controls.Add(this.labelBookForm);
+            this.Controls.Add(this.butTextFormRead);
             this.Controls.Add(this.selectedImage);
             this.Name = "BookForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -53,11 +76,14 @@
             this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.selectedImage)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         public System.Windows.Forms.PictureBox selectedImage;
+        private System.Windows.Forms.Label labelBookForm;
+        public System.Windows.Forms.Button butTextFormRead;
     }
 }

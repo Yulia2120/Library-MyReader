@@ -17,5 +17,12 @@ namespace Library_MyReader
             InitializeComponent();
         }
 
+        private void butTextFormRead_Click(object sender, EventArgs e)
+        {
+            TextForm textBox = new TextForm();
+            textBox.Text = butTextFormRead.Text;
+            textBox.Show();
+            //if(selectedImage.Name == )
+        }
     }
 }

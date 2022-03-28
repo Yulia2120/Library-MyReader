@@ -10,8 +10,9 @@ namespace Library_MyReader
     {
         private int SelectedImageIndex = 0;
         private List<Image> LoadedImages { get; set; }
-        
-      
+
+       // BookForm bookForm = new BookForm();
+
         private string path = @"C:\Users\Admin\source\repos\Library MyReader\bin\Debug\images";
        
 
@@ -185,7 +186,7 @@ namespace Library_MyReader
             imageList.LargeImageList = images;
             for (int itemIndex = 1; itemIndex <= LoadedImages.Count; itemIndex++)
             {
-                imageList.Items.Add(new ListViewItem($"Image{itemIndex}", itemIndex - 1));
+                imageList.Items.Add(new ListViewItem($"{itemIndex}", itemIndex - 1));
             }
         }
         //выбор изображения из ListView
@@ -224,6 +225,30 @@ namespace Library_MyReader
                 }
             }
         }
+
+        //private void butAddBook_Click(object sender, EventArgs e)
+        //{
+        //    BookForm bookForm = new BookForm();
+        //    openFD.Filter = "*.jpg|*.jpg|*.png|*.png";
+        //    if (openFD.ShowDialog() == DialogResult.OK)
+        //    {
+        //        bookForm.selectedImage.Image = new Bitmap(openFD.FileName);
+        //        var tempImage = Image.FromFile(openFD.FileName);
+        //        LoadedImages.Add(tempImage);
+        //        //if (bookForm.selectedImage.Image != null)
+        //        //{
+        //        //    saveFD.Title = "Save as...";
+        //        //    saveFD.OverwritePrompt = true;
+        //        //    saveFD.CheckPathExists = true;
+        //        //    saveFD.Filter = "*.jpg|*.jpg|*.png|*.png";
+
+        //        //}
+        //        //if (saveFD.ShowDialog() == DialogResult.OK)
+        //        //    bookForm.selectedImage.Image.Save(saveFD.FileName);
+        //        InitListView();
+
+        //    }
+        //}
     }
 }
 
