@@ -1,28 +1,38 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
+
 using System.Windows.Forms;
 
 namespace Library_MyReader
 {
+
     public partial class BookForm : Form
     {
+      
+        //private List<string> texts { get; set; }
+        //private string pathText = @"C:\Users\Admin\source\repos\Library MyReader\bin\Debug\text";
+        //private int SelectedImageIndex = 0;
+        //private int index = 0;
+
         public BookForm()
         {
             InitializeComponent();
+           
         }
 
-        private void butTextFormRead_Click(object sender, EventArgs e)
+
+        private void selectedImage_Click(object sender, EventArgs e)
         {
-            TextForm textBox = new TextForm();
-            textBox.Text = butTextFormRead.Text;
-            textBox.Show();
-            //if(selectedImage.Name == )
+           // Form1 form = new Form1();
+           // if (form.imageList.SelectedIndices == texts[index])
+            {
+                TextForm textBox = new TextForm();
+                textBox.Show();
+                textBox.TextFromFolder();
+
+            }
         }
+       
     }
 }

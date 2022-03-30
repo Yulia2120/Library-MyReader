@@ -34,20 +34,15 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelTitle1 = new System.Windows.Forms.Label();
             this.labelTitle2 = new System.Windows.Forms.Label();
-            this.tabPageLibrary = new System.Windows.Forms.TabPage();
-            this.butBooksDetailes = new System.Windows.Forms.Button();
-            this.butBooksList = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
             this.tabPageBooks = new System.Windows.Forms.TabPage();
-            this.imageList = new System.Windows.Forms.ListView();
-            this.butAddBook = new System.Windows.Forms.Button();
             this.butDelBook = new System.Windows.Forms.Button();
+            this.butAddBook = new System.Windows.Forms.Button();
+            this.imageList = new System.Windows.Forms.ListView();
             this.openFD = new System.Windows.Forms.OpenFileDialog();
             this.saveFD = new System.Windows.Forms.SaveFileDialog();
             this.tabControl.SuspendLayout();
             this.tabPageTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabPageLibrary.SuspendLayout();
             this.tabPageBooks.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +51,6 @@
             this.tabControl.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.tabControl.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
             this.tabControl.Controls.Add(this.tabPageTitle);
-            this.tabControl.Controls.Add(this.tabPageLibrary);
             this.tabControl.Controls.Add(this.tabPageBooks);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -82,6 +76,7 @@
             this.tabPageTitle.Size = new System.Drawing.Size(778, 464);
             this.tabPageTitle.TabIndex = 0;
             this.tabPageTitle.Text = "Title";
+            this.tabPageTitle.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -128,57 +123,6 @@
             this.labelTitle2.TabIndex = 2;
             this.labelTitle2.Text = "MyEBookReader";
             // 
-            // tabPageLibrary
-            // 
-            this.tabPageLibrary.Controls.Add(this.butBooksDetailes);
-            this.tabPageLibrary.Controls.Add(this.butBooksList);
-            this.tabPageLibrary.Controls.Add(this.listView1);
-            this.tabPageLibrary.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tabPageLibrary.Location = new System.Drawing.Point(4, 29);
-            this.tabPageLibrary.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.tabPageLibrary.Name = "tabPageLibrary";
-            this.tabPageLibrary.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.tabPageLibrary.Size = new System.Drawing.Size(778, 464);
-            this.tabPageLibrary.TabIndex = 1;
-            this.tabPageLibrary.Text = "Library";
-            this.tabPageLibrary.UseVisualStyleBackColor = true;
-            // 
-            // butBooksDetailes
-            // 
-            this.butBooksDetailes.Location = new System.Drawing.Point(695, 3);
-            this.butBooksDetailes.Name = "butBooksDetailes";
-            this.butBooksDetailes.Size = new System.Drawing.Size(75, 23);
-            this.butBooksDetailes.TabIndex = 2;
-            this.butBooksDetailes.Text = "Info";
-            this.butBooksDetailes.UseVisualStyleBackColor = true;
-            this.butBooksDetailes.Click += new System.EventHandler(this.butBooksDetailes_Click);
-            // 
-            // butBooksList
-            // 
-            this.butBooksList.Location = new System.Drawing.Point(578, 3);
-            this.butBooksList.Name = "butBooksList";
-            this.butBooksList.Size = new System.Drawing.Size(75, 23);
-            this.butBooksList.TabIndex = 1;
-            this.butBooksList.Text = "Books";
-            this.butBooksList.UseVisualStyleBackColor = true;
-            this.butBooksList.Click += new System.EventHandler(this.butBooksList_Click);
-            // 
-            // listView1
-            // 
-            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listView1.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.listView1.GridLines = true;
-            this.listView1.HideSelection = false;
-            this.listView1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.listView1.Location = new System.Drawing.Point(4, 55);
-            this.listView1.MultiSelect = false;
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(770, 406);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
             // tabPageBooks
             // 
             this.tabPageBooks.BackColor = System.Drawing.SystemColors.Control;
@@ -191,17 +135,15 @@
             this.tabPageBooks.TabIndex = 2;
             this.tabPageBooks.Text = "Books";
             // 
-            // imageList
+            // butDelBook
             // 
-            this.imageList.Alignment = System.Windows.Forms.ListViewAlignment.SnapToGrid;
-            this.imageList.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.imageList.HideSelection = false;
-            this.imageList.Location = new System.Drawing.Point(0, 53);
-            this.imageList.Name = "imageList";
-            this.imageList.Size = new System.Drawing.Size(778, 411);
-            this.imageList.TabIndex = 0;
-            this.imageList.UseCompatibleStateImageBehavior = false;
-            this.imageList.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.imageList_ItemSelectionChanged_1);
+            this.butDelBook.Location = new System.Drawing.Point(673, 17);
+            this.butDelBook.Name = "butDelBook";
+            this.butDelBook.Size = new System.Drawing.Size(75, 23);
+            this.butDelBook.TabIndex = 2;
+            this.butDelBook.Text = "Delete";
+            this.butDelBook.UseVisualStyleBackColor = true;
+            this.butDelBook.Click += new System.EventHandler(this.butDelBook_Click);
             // 
             // butAddBook
             // 
@@ -211,22 +153,27 @@
             this.butAddBook.TabIndex = 1;
             this.butAddBook.Text = "AddBook";
             this.butAddBook.UseVisualStyleBackColor = true;
-          // this.butAddBook.Click += new System.EventHandler(this.butAddBook_Click);
+            this.butAddBook.Click += new System.EventHandler(this.butAddBook_Click_1);
             // 
-            // butDelBook
+            // imageList
             // 
-            this.butDelBook.Location = new System.Drawing.Point(673, 17);
-            this.butDelBook.Name = "butDelBook";
-            this.butDelBook.Size = new System.Drawing.Size(75, 23);
-            this.butDelBook.TabIndex = 2;
-            this.butDelBook.Text = "Delete";
-            this.butDelBook.UseVisualStyleBackColor = true;
+            this.imageList.Alignment = System.Windows.Forms.ListViewAlignment.SnapToGrid;
+            this.imageList.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.imageList.ForeColor = System.Drawing.Color.White;
+            this.imageList.FullRowSelect = true;
+            this.imageList.HideSelection = false;
+            this.imageList.Location = new System.Drawing.Point(0, 53);
+            this.imageList.Name = "imageList";
+            this.imageList.Size = new System.Drawing.Size(778, 411);
+            this.imageList.TabIndex = 0;
+            this.imageList.UseCompatibleStateImageBehavior = false;
+            this.imageList.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.imageList_ItemSelectionChanged_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(175)))), ((int)(((byte)(79)))));
             this.ClientSize = new System.Drawing.Size(786, 497);
             this.Controls.Add(this.tabControl);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -240,7 +187,6 @@
             this.tabControl.ResumeLayout(false);
             this.tabPageTitle.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPageLibrary.ResumeLayout(false);
             this.tabPageBooks.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -252,17 +198,13 @@
         private System.Windows.Forms.Label labelTitle2;
         private System.Windows.Forms.Label labelTitle1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TabPage tabPageLibrary;
         private System.Windows.Forms.TabPage tabPageTitle;
         private System.Windows.Forms.TabPage tabPageBooks;
-        private System.Windows.Forms.Button butBooksDetailes;
-        private System.Windows.Forms.Button butBooksList;
-        private System.Windows.Forms.ListView listView1;
-        protected System.Windows.Forms.ListView imageList;
         private System.Windows.Forms.Button butDelBook;
         private System.Windows.Forms.Button butAddBook;
         private System.Windows.Forms.OpenFileDialog openFD;
         private System.Windows.Forms.SaveFileDialog saveFD;
+        public System.Windows.Forms.ListView imageList;
     }
 }
 
