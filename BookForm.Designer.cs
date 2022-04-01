@@ -48,7 +48,7 @@
             // 
             this.labelBookForm.AutoSize = true;
             this.labelBookForm.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelBookForm.Location = new System.Drawing.Point(247, 418);
+            this.labelBookForm.Location = new System.Drawing.Point(265, 418);
             this.labelBookForm.Name = "labelBookForm";
             this.labelBookForm.Size = new System.Drawing.Size(0, 15);
             this.labelBookForm.TabIndex = 2;

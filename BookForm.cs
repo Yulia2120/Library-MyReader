@@ -24,8 +24,6 @@ namespace Library_MyReader
 
         private void selectedImage_Click(object sender, EventArgs e)
         {
-           // Form1 form = new Form1();
-           // if (form.imageList.SelectedIndices == texts[index])
             {
                 TextForm textBox = new TextForm();
                 textBox.Show();

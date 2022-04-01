@@ -168,6 +168,7 @@
             this.imageList.TabIndex = 0;
             this.imageList.UseCompatibleStateImageBehavior = false;
             this.imageList.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.imageList_ItemSelectionChanged_1);
+         
             // 
             // Form1
             // 

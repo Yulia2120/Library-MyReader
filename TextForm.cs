@@ -39,14 +39,12 @@ namespace Library_MyReader
             if (openFD.ShowDialog() == DialogResult.OK)
             {
                 openFD.Filter = "*.txt|*.txt|All files(*.*)|*.*";
-                //string filename = openFD.FileName;
-                //string fileText = File.ReadAllText(filename);
-                //textBox.Text = fileText;
+                pathText = openFD.FileName;
+
                 FileStream file = new FileStream(openFD.FileName, FileMode.Open, FileAccess.Read);
                 StreamReader reader = new StreamReader(file, Encoding.Default);
                 textBox.Text = reader.ReadToEnd();
                 reader.Close();
-                pathText = openFD.FileName;
 
             }
         }
