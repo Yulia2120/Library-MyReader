@@ -60,10 +60,12 @@
             this.ClientSize = new System.Drawing.Size(786, 497);
             this.Controls.Add(this.labelBookForm);
             this.Controls.Add(this.selectedImage);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "BookForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BookForm";
             this.TopMost = true;
+        
             ((System.ComponentModel.ISupportInitialize)(this.selectedImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
